@@ -1,0 +1,17 @@
+.full-width {
+    width: 100%;
+    margin-bottom: 16px; /* Space between fields */
+  }
+  
+  mat-card {
+    max-width: 600px; /* Limit the width of the card */
+    margin: 20px auto; /* Center the card */
+    padding: 16px; /* Padding inside the card */
+  }
+  
+  @media (max-width: 600px) {
+    mat-card {
+      margin: 10px; /* Reduce margin on smaller screens */
+    }
+  }
+  

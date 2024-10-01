@@ -1,0 +1,24 @@
+.grid-list {
+    margin: 20px; /* Margin around the grid */
+  }
+  
+  .project-card {
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  @media (max-width: 900px) {
+    mat-grid-list {
+      cols: 2; /* 2 columns for medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    mat-grid-list {
+      cols: 1; /* 1 column for small screens */
+    }
+  }
+  
